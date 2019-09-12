@@ -1,0 +1,11 @@
+D:\CODE GYM\Module 2\V1-p\Practice01\Exercise01\Exercise01\bin\Debug\netcoreapp2.2\Exercise01.deps.json
+D:\CODE GYM\Module 2\V1-p\Practice01\Exercise01\Exercise01\bin\Debug\netcoreapp2.2\Exercise01.runtimeconfig.json
+D:\CODE GYM\Module 2\V1-p\Practice01\Exercise01\Exercise01\bin\Debug\netcoreapp2.2\Exercise01.runtimeconfig.dev.json
+D:\CODE GYM\Module 2\V1-p\Practice01\Exercise01\Exercise01\bin\Debug\netcoreapp2.2\Exercise01.dll
+D:\CODE GYM\Module 2\V1-p\Practice01\Exercise01\Exercise01\bin\Debug\netcoreapp2.2\Exercise01.pdb
+D:\CODE GYM\Module 2\V1-p\Practice01\Exercise01\Exercise01\obj\Debug\netcoreapp2.2\Exercise01.csprojAssemblyReference.cache
+D:\CODE GYM\Module 2\V1-p\Practice01\Exercise01\Exercise01\obj\Debug\netcoreapp2.2\Exercise01.csproj.CoreCompileInputs.cache
+D:\CODE GYM\Module 2\V1-p\Practice01\Exercise01\Exercise01\obj\Debug\netcoreapp2.2\Exercise01.AssemblyInfoInputs.cache
+D:\CODE GYM\Module 2\V1-p\Practice01\Exercise01\Exercise01\obj\Debug\netcoreapp2.2\Exercise01.AssemblyInfo.cs
+D:\CODE GYM\Module 2\V1-p\Practice01\Exercise01\Exercise01\obj\Debug\netcoreapp2.2\Exercise01.dll
+D:\CODE GYM\Module 2\V1-p\Practice01\Exercise01\Exercise01\obj\Debug\netcoreapp2.2\Exercise01.pdb
