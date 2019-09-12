@@ -15,7 +15,7 @@ namespace exercise01
             Console.WriteLine("Product Description");
             Product.Description = Console.ReadLine();
 
-            price: Console.WriteLine("Product Price");
+        price: Console.WriteLine("Product Price");
 
             Product.Price = float.Parse(Console.ReadLine());
             if (Product.Price < 0 || Product.Price > 100)
@@ -26,15 +26,18 @@ namespace exercise01
             ProductList.Add(Product);
         }
         public static void removeProduct()
-        {            
-            string produckRM = Console.ReadLine();
-            Console.WriteLine("2.Remove product\n");            
+        {
+            string product__RM = Console.ReadLine();
+            Console.WriteLine("2.Remove product\n");
             foreach (var nameItem in ProductList)
             {
-                ProductList.Remove(nameItem);
-                Console.WriteLine("Complete");
-                Console.WriteLine("_____________");
-                break;
+                if (product__RM == nameItem.Name)
+                {
+                    ProductList.Remove(nameItem);
+                    Console.WriteLine("Complete");
+                    Console.WriteLine("_____________");
+                    break;
+                }
             }
             Console.WriteLine("_____________");
         }
@@ -42,27 +45,22 @@ namespace exercise01
         {
             Console.WriteLine("__________________");
             Console.WriteLine("3.Iterate product list\n");
-            foreach (var produck in ProductList)
+            foreach (var product__ in ProductList)
             {
-                produck.ViewInfor();
+                product__.ViewInfor();
+                Console.WriteLine("-------------");
             }
             Console.WriteLine("__________________");
         }
         public static void searchProduct()
         {
-            int check = 0;
             string nameProduct = Console.ReadLine();
-            foreach(var produck in ProductList)
+            foreach (var product__ in ProductList)
             {
-                if (produck.Name == nameProduct)
+                if (product__.Name == nameProduct)
                 {
-                    produck.ViewInfor();
-                    check++;
+                    product__.ViewInfor();
                 }
-            }
-            if(check == 0)
-            {
-                Console.WriteLine("No Product");
             }
         }
 
