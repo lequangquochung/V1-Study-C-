@@ -15,7 +15,7 @@ namespace exercise01
             Console.WriteLine("Product Description");
             Product.Description = Console.ReadLine();
 
-        price: Console.WriteLine("Product Price");
+            price: Console.WriteLine("Product Price");
 
             Product.Price = float.Parse(Console.ReadLine());
             if (Product.Price < 0 || Product.Price > 100)
